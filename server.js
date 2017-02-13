@@ -22,7 +22,7 @@ head:`article3`
 };
 
 function sende(ar){
-var arti = article.name;
+var arti = article1.name;
 console.log(ar.name);
 var he = ar.head;
 var para = ar.paragraph;
