@@ -22,7 +22,7 @@ z:`article3`
 };
 
 function sende(aname){
-var arti = aname.x;
+var arti = article2.x;
 var he = aname.y;
 var para = aname.z;
 var articleTemp=`<!DOCTYPE html>
