@@ -21,11 +21,12 @@ paragraph:`This is my third article`,
 head:`article3`
 };
 
-function sende(ar){
-var arti = article1.name;
-console.log(arti);
-var he = ar.head;
-var para = ar.paragraph;
+function sende(aname){
+console.log(aname);
+var arti = aname.name;
+
+var he = aname.head;
+var para = aname.paragraph;
 var articleTemp=`<!DOCTYPE html>
 <html>
 <head>
