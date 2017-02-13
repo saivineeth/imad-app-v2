@@ -23,6 +23,7 @@ head:`article3`
 
 function sende(sudo){
 var arti=sudo.arti_name;
+console.log(`article name is ${arti}`);
 var he=sudo.head;
 var para=sudo.paragraph;
 var article=`<!DOCTYPE html>
@@ -48,7 +49,7 @@ app.get('/', function (req, res) {
 });
 app.get('/:articleName', function (req, res) {
  var articleName=req.params.articleName;
- console.log(`article name is ${articleName}`);
+ 
   res.send(sende(articleName));
 });
 
