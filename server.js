@@ -47,8 +47,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/:articleName', function (req, res) {
- var article_name=req.params.articleName;
-  res.send(sende(article_name));
+ var articleName=req.params.articleName;
+ console.log("article name is ${articleName}")
+  res.send(sende(articleName));
 });
 
 app.get('/ui/style.css', function (req, res) {
