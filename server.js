@@ -21,11 +21,11 @@ paragraph:`This is my third article`,
 head:`article3`
 };
 
-function sende(sudo){
-var arti=article1.name;
+function sende(ar){
+var arti=ar.name;
 
-var he=sudo.head;
-var para=sudo.paragraph;
+var he=ar.head;
+var para=ar.paragraph;
 var articleTemp=`<!DOCTYPE html>
 <html>
 <head>
