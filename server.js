@@ -21,7 +21,7 @@ paragraph:`This is my third article`,
 head:`article3`
 };
 
-function send(sudo){
+function sende(sudo){
 var arti=sudo.arti_name;
 var he=sudo.head;
 var para=sudo.paragraph;
@@ -47,8 +47,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/:articleName', function (req, res) {
- var article=req.params.articleName;
-  res.send(send(article));
+ var article_name=req.params.articleName;
+  res.send(sende(article_name));
 });
 
 app.get('/ui/style.css', function (req, res) {
