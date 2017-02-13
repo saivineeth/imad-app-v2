@@ -48,7 +48,7 @@ app.get('/', function (req, res) {
 });
 app.get('/:articleName', function (req, res) {
  var articleName=req.params.articleName;
- console.log("article name is ${articleName}")
+ console.log(`article name is ${articleName}`);
   res.send(sende(articleName));
 });
 
