@@ -50,7 +50,7 @@ body{
 	height:230px;
 	min-width:300px;
 	width:1355px;
-	background:url("b.jpg") center center no-repeat;
+	background:url("/ui/b.jpg") center center no-repeat;
 	background-size:cover;
 	border-radius:0;
 	background-attachment:scroll;
@@ -79,7 +79,7 @@ body{
 	box-shadow:3px 3px 6px 2px black;
 	margin:7% 0 0 7%;
 	border:2px solid white;
-	background:url("a.jpg")  center center no-repeat;
+	background:url("/ui/a.jpg")  center center no-repeat;
 	background-size:cover;
 	z-index:1;
 }
@@ -189,7 +189,7 @@ border-radius:20%;
 z-index:10;
 }
 a{
-	text-decoration:;
+	text-decoration:none;
 	color:inherit;
 }
 .social1{
