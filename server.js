@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var article1 = {
-arti_name:"article-one",
+name:"article-one",
 paragraph:"This is my first article",
 head:`article1`
 };
@@ -16,13 +16,13 @@ paragraph:`This is my second article`,
 head:`article2`
 };
 var article3 = {
-arti_name:'article-two',
+name:'article-two',
 paragraph:`This is my third article`,
 head:`article3`
 };
 
 function sende(sudo){
-var arti=article2.name;
+var arti=sudo.name;
 console.log(`article name is ${arti}`);
 var he=sudo.head;
 var para=sudo.paragraph;
@@ -48,9 +48,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/article2', function (req, res) {
- //var articleName=req.params.articleName;
+ var articleName=req.params.articleName;
  
-  res.send(sende(article2));
+  res.send(sende(articleName));
 });
 
 app.get('/ui/style.css', function (req, res) {
