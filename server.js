@@ -6,29 +6,29 @@ var app = express();
 app.use(morgan('combined'));
 
 var article1 = {
-name:"article-one",
-paragraph:"This is my first article",
-head:`article1`
+x:"article-one",
+y:"This is my first article",
+z:`article1`
 };
 var article2 = {
-name:'article-two',
-paragraph:`This is my second article`,
-head:`article2`
+x:'article-two',
+y:`This is my second article`,
+z:`article2`
 };
 var article3 = {
-name:'article-three',
-paragraph:`This is my third article`,
-head:`article3`
+x:'article-three',
+y:`This is my third article`,
+z:`article3`
 };
 
 function sende(aname){
-var arti = aname.name;
-var he = aname.head;
-var para = aname.paragraph;
+var arti = aname.x;
+var he = aname.y;
+var para = aname.z;
 var articleTemp=`<!DOCTYPE html>
 <html>
 <head>
-<title>Saivineeth | ${aname.name}</title>
+<title>Saivineeth | ${arti}</title>
 <link href="/ui/style-arti.css" rel="stylesheet">	
 </head>
 <body>
