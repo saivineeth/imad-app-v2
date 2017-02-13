@@ -16,13 +16,13 @@ paragraph:`This is my second article`,
 head:`article2`
 };
 var article3 = {
-name:'article-two',
+name:'article-three',
 paragraph:`This is my third article`,
 head:`article3`
 };
 
 function sende(sudo){
-var arti=sudo.name;
+var arti=article1.name;
 console.log(`article name is ${arti}`);
 var he=sudo.head;
 var para=sudo.paragraph;
