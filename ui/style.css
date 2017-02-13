@@ -1,11 +1,11 @@
 body{
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
 }
 .left{
 	border-radius:25px;
-	margin:30px 30px 0px 50px;
-	padding:0px 0px 0px 0px;
+	margin:30px 30px 0 50px;
+	padding:0 0 0 0;
 	height:350px;
 	position:relative;
   float:left;
@@ -20,13 +20,13 @@ body{
 	float:left;
 	font-family: 'Exo 2', sans-serif;
 	text-transform:none;
-	margin:10px 0px 0px 80px;
-	padding:0px 0px 0px 0px;
+	margin:10px 0 0 80px;
+	padding:0 0 0 0;
 }
 .right{
 	border-radius:25px;
-	margin:30px 60px 0px 40px;
-	padding:0px 0px 0px 0px;
+	margin:30px 60px 0 40px;
+	padding:0 0 0 0;
 	height:350px;
   float:right;
 	position:relative;
@@ -36,8 +36,8 @@ body{
 	}
 #a{ 
 	border-radius:25px;
-	margin:30px 0px 0px 140px;
-	padding:0px 0px 0px 0px;
+	margin:30px 0 0 140px;
+	padding:0 0 0 0;
 	height:350px;
 	position:relative;
   float:left;
@@ -46,13 +46,13 @@ body{
 	box-shadow:3px 3px 8px black;
 }
 #top{
-	margin:0px 0px 0px 0px;
+	margin:0 0 0 0;
 	height:230px;
 	min-width:300px;
 	width:1355px;
 	background:url("b.jpg") center center no-repeat;
 	background-size:cover;
-	border-radius:0px;
+	border-radius:0;
 	background-attachment:scroll;
 	box-shadow:5px 5px 17px black;
 	position:relative;
@@ -61,8 +61,8 @@ body{
 #name{
 	height:30px;
 	float:right;
-	margin:140px 60% 0px 0px;
-	padding:0px 0px 45px 0px;
+	margin:140px 60% 0 0;
+	padding:0 0 45px 0;
 	font-size:32px;
 	color:white;
 	text-shadow:2px 2px 4px black;
@@ -77,17 +77,17 @@ body{
 	animation-name:slide;
 	animation-duration:4s;
 	box-shadow:3px 3px 6px 2px black;
-	margin:7% 0px 0px 7%;
+	margin:7% 0 0 7%;
 	border:2px solid white;
 	background:url("a.jpg")  center center no-repeat;
 	background-size:cover;
 	z-index:1;
 }
 #middle{
-	margin:10px 0px 0px 110px;
+	margin:10px 0 0 110px;
 }
 #r{
-	margin:10px 0px 0px 90px;
+	margin:10px 0 0 90px;
 }
 ul {
 	padding-top:12px;
@@ -104,14 +104,14 @@ li{
 	position:relative;
 	margin-left:-40px;
 	text-align: center;
-	padding-left:0px;
+	padding-left:0;
 	font-size:24px;
 	text-shadow:1px 1px 1px grey;
-
+	text-transform:;
 	margin-top:10px;
 	font-family: 'Raleway', sans-serif;
 	background:rgba(71,71, 71,0.1);
-	box-shadow:0px 1px 2px grey;
+	box-shadow:0 1px 2px grey;
 	border-left:2px solid #E2622F;
 
 }
@@ -119,11 +119,11 @@ li{
 color:white;
 	width:1360px;;
 	height:520px;
-	margin:-10px 0px 0px 0px;
+	margin:-10px 0 0 0;
 	position:relative;
 	z-index:0;
 	opacity:0.9;
-	box-shadow:-2px 0px 8px black;
+	box-shadow:-2px 0 8px black;
   background: linear-gradient(180deg,#187,#000000);
 background-size: cover;
 
@@ -159,8 +159,8 @@ position:absolute;
 
 .head{
   max-width:170px;
-	margin:10px 0px 0px 45%;
-	padding:0px 0px 0px 0px;
+	margin:10px 0 0 45%;
+	padding:0 0 0 0;
   position:relative;
 	text-shadow:2px 2px 2px black;
   z-index:9;
@@ -172,7 +172,7 @@ position:relative;
 	color:#3b5998;
 	font-size:45px;
 	border:3px solid #3b5998;
-margin:0px 0px 0px 0px;	
+margin:0 0 0 0;	
 padding:4px 15px 4px 15px;
 border-radius:20%;
 z-index:10;
@@ -183,13 +183,13 @@ position:relative;
 	color:white;
 	font-size:45px;
 	border:3px solid #3b5998;
-margin:0px 0px 0px 0px;	
+margin:0 0 0 0;	
 padding:4px 15px 4px 15px;
 border-radius:20%;
 z-index:10;
 }
 a{
-	text-decoration:none;
+	text-decoration:;
 	color:inherit;
 }
 .social1{
@@ -198,7 +198,7 @@ position:relative;
 	border:3px solid #4875B4;
 	font-size:45px;
 	border-radius:20%;
-margin:0px 0px 0px 0px;
+margin:0 0 0 0;
 padding:4px 10px 4px 10px;	
 z-index:10;
 }
@@ -209,7 +209,7 @@ position:relative;
 	border:3px solid #4875B4;
 	font-size:45px;
 	border-radius:20%;
-margin:0px 0px 0px 0px;
+margin:0 0 0 0;
 padding:4px 10px 4px 10px;	
 }
 table{
@@ -226,7 +226,7 @@ footer{
 	border-bottom:1px solid black;
 	position:relative;
 	width:1360px;
-	margin-left:0px;
+	margin-left:0;
 	margin-top: -58px;
 	font-family: 'Titillium Web', sans-serif;
    
@@ -264,7 +264,7 @@ cursor:pointer;
 }
 .nav-item{
 	font-size:25px;
-	margin:0px 0px 10px -40px;
+	margin:0 0 10px -40px;
 	text-shadow:1px 1px 4px black;
 	width:200px;
 	height:40px;
@@ -273,12 +273,12 @@ cursor:pointer;
 	color:white;
 }
 .nav-item:hover{
-	margin:0px 0px 10px -40px;
+	margin:0 0 10px -40px;
 	border:none;
 	text-shadow:1px 1px 5px black;
 	width:200px;
 	height:40px;
-	box-shadow:0px 0px 8px 1px black inset;
+	box-shadow:0 0 8px 1px black inset;
  background:#E2622F;
 	color:white;
 	cursor:pointer;
@@ -286,14 +286,14 @@ cursor:pointer;
 
 /*@media (max-width:800px){
 	body{
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
 	z-index:1;
 }
 .left{
 	border-radius:25px;
-	margin:30px 0px 0px 20%;
-	padding:0px 0px 0px 0px;
+	margin:30px 0 0 20%;
+	padding:0 0 0 0;
 	height:350px;
 	position:relative;
 	background:white;
@@ -307,13 +307,13 @@ cursor:pointer;
 	float:left;
 	font-family: 'Exo 2', sans-serif;
 	text-transform:none;
-	margin:10px 0px 0px 80px;
-	padding:0px 0px 0px 0px;
+	margin:10px 0 0 80px;
+	padding:0 0 0 0;
 }
 .right{
 	border-radius:25px;
-	margin:30px 20% 0px 20%;
-	padding:0px 0px 0px 0px;
+	margin:30px 20% 0 20%;
+	padding:0 0 0 0;
 	position: relative;
 	height:350px;
 	width:300px;
@@ -322,21 +322,21 @@ cursor:pointer;
 	}
 #a{ 
 	border-radius:25px;
-	margin:30px 0% 0px 20%;
-	padding:0px 0px 0px 0px;
+	margin:30px 0% 0 20%;
+	padding:0 0 0 0;
 	height:350px;
 	width:300px;
 	background:white;
 	box-shadow:3px 3px 8px black;
 }
 #top{
-	margin:0px 0px 0px 0px;
+	margin:0 0 0 0;
 	height:230px;
 	min-width:300px;
 	max-width:100%;
 	background:url("b.jpg") center center no-repeat;
 	background-size:cover;
-	border-radius:0px;
+	border-radius:0;
 	background-attachment:scroll;
 	box-shadow:5px 5px 17px black;
 	z-index: 1;
@@ -344,8 +344,8 @@ cursor:pointer;
 #name{
 	height:30px;
 	float:right;
-	margin:140px 15% 0px 0px;
-	padding:0px 0px 45px 0px;
+	margin:140px 15% 0 0;
+	padding:0 0 45px 0;
 	font-size:32px;
 	position:relative;
 	color:white;
@@ -361,16 +361,16 @@ cursor:pointer;
 	animation-name:slide;
 	animation-duration:4s;
 	box-shadow:3px 3px 6px 2px black;
-	margin:-200px 0px 0px 125px;
+	margin:-200px 0 0 125px;
 	border:2px solid white;
 	background:url("a.jpg")  center center no-repeat;
 	background-size:cover;
 }
 #middle{
-	margin:10px 0px 0px 54px;
+	margin:10px 0 0 54px;
 }
 #r{
-	margin:10px 0px 0px 110px;
+	margin:10px 0 0 110px;
 }
 ul {
 	padding-top:12px;
@@ -384,14 +384,14 @@ li{
 	position:relative;
 	margin-left:-40px;
 	text-align: center;
-	padding-left:0px;
+	padding-left:0;
 	font-size:24px;
 	text-shadow:1px 1px 1px grey;
 	text-transform:;
 	margin-top:10px;
 	font-family: 'Raleway', sans-serif;
 	background:rgba(71,71, 71,0.1);
-	box-shadow:0px 1px 2px grey;
+	box-shadow:0 1px 2px grey;
 	border-left:2px solid #E2622F;
 
 }
@@ -399,7 +399,7 @@ li{
 color:white;
 	width:100%;
 	height:1240px;
-	margin:-10px 0px 0px 0px;
+	margin:-10px 0 0 0;
 	position:relative;
 	z-index:-1;
 	opacity:0.9;
@@ -439,8 +439,8 @@ position:relative;
 
 .head{
   max-width:170px;
-	margin:10px 0px 0px 45%;
-	padding:0px 0px 0px 0px;
+	margin:10px 0 0 45%;
+	padding:0 0 0 0;
 	text-shadow:6px 6px 6px black;
 
 	text-shadow:2px 2px 2px black;
