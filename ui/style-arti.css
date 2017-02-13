@@ -1,0 +1,22 @@
+
+.content{
+background:white;
+position:relative;
+border:20px solid #321102;
+border-radius:10px;
+margin:40px 30px 30px 30px;
+height:400px;
+box-shadow:0px 0px 15px 5px black inset;
+}
+.background1{
+background:none;
+}
+body{
+background:#363636;}
+.title{
+	text-align:center;
+	font-size:50px;
+}
+p{
+	text-align:center;
+}
