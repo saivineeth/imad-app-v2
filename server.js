@@ -22,7 +22,6 @@ head:`article3`
 };
 
 function sende(aname){
-console.log(aname);
 var arti = aname.name;
 
 var he = aname.head;
@@ -30,14 +29,14 @@ var para = aname.paragraph;
 var articleTemp=`<!DOCTYPE html>
 <html>
 <head>
-<title>Saivineeth | ${arti}</title>
+<title>Saivineeth | ${aname.name}</title>
 <link href="/ui/style-arti.css" rel="stylesheet">	
 </head>
 <body>
 
 	<div class="content">
-    <h1 class="title">${he}</h1>
-	<p> ${para}
+    <h1 class="title">${aname.head}</h1>
+	<p> ${aname.paragraph}
 	</p>
 	</div>
 	</body>
