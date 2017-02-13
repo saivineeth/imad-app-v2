@@ -21,7 +21,7 @@ paragraph:`This is my third article`,
 head:`article3`
 };
 
-function send(sud){
+function send(sudo){
 var arti=sudo.arti_name;
 var he=sudo.head;
 var para=sudo.paragraph;
