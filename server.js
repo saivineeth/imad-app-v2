@@ -11,7 +11,7 @@ paragraph:"This is my first article",
 head:`article1`
 };
 var article2 = {
-arti_name:'article-two',
+name:'article-two',
 paragraph:`This is my second article`,
 head:`article2`
 };
@@ -22,11 +22,11 @@ head:`article3`
 };
 
 function sende(sudo){
-var arti=article2.arti_name;
+var arti=article2.name;
 console.log(`article name is ${arti}`);
 var he=sudo.head;
 var para=sudo.paragraph;
-var article=`<!DOCTYPE html>
+var articleTemp=`<!DOCTYPE html>
 <html>
 <head>
 <title>Saivineeth | ${arti}</title>
@@ -41,7 +41,7 @@ var article=`<!DOCTYPE html>
 	</div>
 	</body>
 </html>`;
-    return article;
+    return articleTemp;
 }
 
 app.get('/', function (req, res) {
