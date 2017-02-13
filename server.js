@@ -23,7 +23,7 @@ head:`article3`
 
 function sende(ar){
 var arti = article1.name;
-console.log(ar.name);
+console.log(arti);
 var he = ar.head;
 var para = ar.paragraph;
 var articleTemp=`<!DOCTYPE html>
