@@ -22,7 +22,7 @@ head:`article3`
 };
 
 function sende(sudo){
-var arti=sudo.arti_name;
+var arti=article2.arti_name;
 console.log(`article name is ${arti}`);
 var he=sudo.head;
 var para=sudo.paragraph;
