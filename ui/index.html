@@ -1,16 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        
-        <div class="header">
-               <span align=center><h2>ABOUT ME</h2></span>
-           <h2>weclome to the new you</h2> 
-        </div>
-    
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+<head>
+<title>Saivineeth | Profile</title>
+<link href="style.css" rel="stylesheet" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Pangolin" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Poiret+One|Righteous" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Exo+2|Quicksand" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/82fc79f7bb.js"></script>
+
+<script>
+
+$(document).ready(main);
+function main(){
+$("#navigator").click(show);
+$("#close").click(close);}
+function show(){
+$("#nav").animate({marginLeft:"0px"},300);
+$("#top").animate({marginLeft:"193px"},300).css({"filter":"blur(14px)"});
+$(".about").animate({marginLeft:"190px"},300).css({"filter":"blur(14px)"});
+$("footer").animate({marginLeft:"190px"},300).css({"filter":"blur(14px)"});}
+function close(){
+$("#nav").animate({marginLeft:"-210px"},300);
+$("#top").animate({marginLeft:"0px"},300).css({"filter":"none"});
+$(".about").animate({marginLeft:"0px"},300).css({"filter":"none"});
+$("footer").animate({marginLeft:"0px"},300).css({"filter":"none"});}
+
+</script>
+</head>
+
+<body>
+
+<div id="nav">
+<i class="fa fa-times fa-1x" id="close"></i>
+<ul class="nav-con">
+<li class="nav-item">Article 1</li>
+<li class="nav-item">Article 2</li>
+<li class="nav-item">Article 3</li>
+</ul></div>
+<div id="top">
+<i class="fa fa-bars" id="navigator"></i>
+
+<div id="opa">
+
+</div>
+	<div id="name"><h3>SAIVINEETH</h3></div>
+	<div id="pic"> </div>
+	
+</div>
+<div class="about">
+    <h1 class="head">About Me</h1>
+<div class="left">
+ <div >
+     <h1 class="content">Education</h1>
+	 
+	 
+ </div>
+<ul>
+	 <li>Narayana Jr. College-(2014)</li>
+	 <li>SRM University-(2018*)</li>
+	 </ul>
+
+</div>
+<div id="a">
+<div>
+<h1 class="content" id="middle">Skills</h1>
+ 
+ </div>
+ <ul>
+	 <li>C</li>
+	 <li>C++</li>
+	 <li>Java</li>
+	 <li>HTML</li>
+	 <li>CSS</li>
+	 <li>Hadoop</li>
+	 
+	 
+	 </ul>
+
+</div>
+<div class="right" >
+<div >
+<h1 class="content" id="r">Contact</h1>
+ </div>
+ <ul>
+ <li>Saivineeth@yahoo.co.in</li>
+ </ul>
+ <table>
+ <tr>
+ <td class="social"><a href="https://www.facebook.com/sai.vineeth.7" target="_blank"><i class="fa fa-facebook"></i></a></td>
+ <td class="social1"><a href="https://in.linkedin.com/in/saivineeth-domakuntla-34591b97"><i class="fa fa-linkedin"></a></td>
+ </tr>
+ </table>
+
+</div>	
+	</div>
+<footer >
+<h1>&copy Saivineeth</h1>
+</footer>
+</body>
 </html>
