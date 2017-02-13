@@ -29,7 +29,7 @@ var article=`<!DOCTYPE html>
 <html>
 <head>
 <title>Saivineeth | ${arti}</title>
-<link href="style-arti.css" rel="stylesheet">	
+<link href="/ui/style-arti.css" rel="stylesheet">	
 </head>
 <body>
 
