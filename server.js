@@ -22,10 +22,10 @@ head:`article3`
 };
 
 function sende(ar){
-var arti=ar.name;
-
-var he=ar.head;
-var para=ar.paragraph;
+var arti = ar.name;
+console.log(ar.name);
+var he = ar.head;
+var para = ar.paragraph;
 var articleTemp=`<!DOCTYPE html>
 <html>
 <head>
